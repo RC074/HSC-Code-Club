@@ -3167,8 +3167,8 @@
 				.wrapper.style2 input[type="email"]:focus,
 				.wrapper.style2 select:focus,
 				.wrapper.style2 textarea:focus {
-					border-color: #F64747;
-					box-shadow: 0 0 0 1px #F64747;
+					border-color: #096300;
+					box-shadow: 0 0 0 1px #096300;
 				}
 
 			.wrapper.style2 .select-wrapper:before {
@@ -3188,8 +3188,8 @@
 
 			.wrapper.style2 input[type="checkbox"]:checked + label:before,
 			.wrapper.style2 input[type="radio"]:checked + label:before {
-				background-color: #F64747;
-				border-color: #F64747;
+				background-color: #096300;
+				border-color: #096300;
 				color: #ffffff;
 			}
 
@@ -3281,7 +3281,7 @@
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
@@ -3293,7 +3293,7 @@
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
@@ -3305,7 +3305,7 @@
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
@@ -3317,13 +3317,13 @@
 
 		100% {
 			top: 0;
-			opacity: 1;
+			opacity: 0;
 		}
 	}
 
 	#header {
-		background-color: transparent;
-		color: #fdd1d1;
+		background-color: #612DA2;
+		color: #612DA2;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3338,7 +3338,7 @@
 
 		#header.alt {
 			top: 0;
-			background: #F64747;
+			background: #612DA2;
 		}
 
 		#header .logo {
@@ -3629,13 +3629,13 @@
 			line-height: 1.1;
 			font-family: "Helvetica Neue", cursive;
 			margin-bottom: .25em;
-			color: rgba(255, 255, 255, 0.75);
-			text-shadow: -2px -2px 0 rgba(0, 0, 0, 0.125);
+			color: rgba(255, 255, 255, 0.897);
+			text-shadow: -5px -5px 0 rgba(0, 0, 0, 0.125);
 			text-transform: none;
 		}
 
 		#banner p {
-			color: rgba(255, 255, 255, 0.85);
+			color: rgba(255, 255, 255, 0.89);
 			font-size: 1.75em;
 		}
 
@@ -4179,10 +4179,10 @@
 /* Footer */
 
 	#footer {
-		background-color: #F64747;
+		background-color: #096300;
 		color: #fdd1d1;
 		padding: 6em 0 4em 0;
-		background: #F64747;
+		background: #096300;
 	}
 
 		#footer input, #footer select, #footer textarea {
