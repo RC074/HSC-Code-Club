@@ -3322,8 +3322,6 @@
 	}
 
 	#header {
-		background-color: #612DA2;
-		color: #612DA2;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3531,7 +3529,6 @@
 			right: 0;
 			text-align: right;
 			top: 0;
-			vertical-align: middle;
 			width: 7em;
 		}
 
@@ -4429,3 +4426,4 @@
 			}
 
 		}
+
